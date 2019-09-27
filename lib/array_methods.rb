@@ -23,7 +23,8 @@ min = 0
 array.length.times do |count|
   if count == 0
     min = array[count]
-else 
+else array[count] < min 
+  
 end
 min
 end
