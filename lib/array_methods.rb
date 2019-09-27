@@ -8,7 +8,7 @@ nil
 end
 
 def find_max_value(array)
-mac = 0
+max = 0
 array.length.times do |count|
 if array[count] < max
   max = array[count]
